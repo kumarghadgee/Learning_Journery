@@ -1,0 +1,7 @@
+C:\Users\kumar\source\repos\Demo03\Demo03\bin\Debug\Demo03.exe.config
+C:\Users\kumar\source\repos\Demo03\Demo03\bin\Debug\Demo03.exe
+C:\Users\kumar\source\repos\Demo03\Demo03\bin\Debug\Demo03.pdb
+C:\Users\kumar\source\repos\Demo03\Demo03\obj\Debug\Demo03.csproj.AssemblyReference.cache
+C:\Users\kumar\source\repos\Demo03\Demo03\obj\Debug\Demo03.csproj.CoreCompileInputs.cache
+C:\Users\kumar\source\repos\Demo03\Demo03\obj\Debug\Demo03.exe
+C:\Users\kumar\source\repos\Demo03\Demo03\obj\Debug\Demo03.pdb

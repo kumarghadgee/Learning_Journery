@@ -1,0 +1,6 @@
+C:\Users\kumar\source\repos\MathClient\MathLib\bin\Debug\MathLib.dll
+C:\Users\kumar\source\repos\MathClient\MathLib\bin\Debug\MathLib.pdb
+C:\Users\kumar\source\repos\MathClient\MathLib\obj\Debug\MathLib.csproj.AssemblyReference.cache
+C:\Users\kumar\source\repos\MathClient\MathLib\obj\Debug\MathLib.csproj.CoreCompileInputs.cache
+C:\Users\kumar\source\repos\MathClient\MathLib\obj\Debug\MathLib.dll
+C:\Users\kumar\source\repos\MathClient\MathLib\obj\Debug\MathLib.pdb
