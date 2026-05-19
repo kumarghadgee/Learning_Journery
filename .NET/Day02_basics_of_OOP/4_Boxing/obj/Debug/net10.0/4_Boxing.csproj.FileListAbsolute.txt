@@ -1,0 +1,14 @@
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\bin\Debug\net10.0\4_Boxing.exe
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\bin\Debug\net10.0\4_Boxing.deps.json
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\bin\Debug\net10.0\4_Boxing.runtimeconfig.json
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\bin\Debug\net10.0\4_Boxing.dll
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\bin\Debug\net10.0\4_Boxing.pdb
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\4_Boxing.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\4_Boxing.AssemblyInfoInputs.cache
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\4_Boxing.AssemblyInfo.cs
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\4_Boxing.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\4_Boxing.dll
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\refint\4_Boxing.dll
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\4_Boxing.pdb
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\4_Boxing.genruntimeconfig.cache
+E:\.net Prac\Day02\Day02_Soln\4_Boxing\obj\Debug\net10.0\ref\4_Boxing.dll

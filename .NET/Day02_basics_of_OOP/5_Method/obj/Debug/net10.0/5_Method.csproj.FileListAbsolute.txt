@@ -1,0 +1,14 @@
+E:\.net Prac\Day02\Day02_Soln\5_Method\bin\Debug\net10.0\5_Method.exe
+E:\.net Prac\Day02\Day02_Soln\5_Method\bin\Debug\net10.0\5_Method.deps.json
+E:\.net Prac\Day02\Day02_Soln\5_Method\bin\Debug\net10.0\5_Method.runtimeconfig.json
+E:\.net Prac\Day02\Day02_Soln\5_Method\bin\Debug\net10.0\5_Method.dll
+E:\.net Prac\Day02\Day02_Soln\5_Method\bin\Debug\net10.0\5_Method.pdb
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\5_Method.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\5_Method.AssemblyInfoInputs.cache
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\5_Method.AssemblyInfo.cs
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\5_Method.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\5_Method.dll
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\refint\5_Method.dll
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\5_Method.pdb
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\5_Method.genruntimeconfig.cache
+E:\.net Prac\Day02\Day02_Soln\5_Method\obj\Debug\net10.0\ref\5_Method.dll

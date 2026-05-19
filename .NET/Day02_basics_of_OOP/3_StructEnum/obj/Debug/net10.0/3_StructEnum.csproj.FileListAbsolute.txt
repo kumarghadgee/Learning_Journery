@@ -1,0 +1,14 @@
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\3_StructEnum.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\3_StructEnum.AssemblyInfoInputs.cache
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\3_StructEnum.AssemblyInfo.cs
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\3_StructEnum.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\bin\Debug\net10.0\3_StructEnum.exe
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\bin\Debug\net10.0\3_StructEnum.deps.json
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\bin\Debug\net10.0\3_StructEnum.runtimeconfig.json
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\bin\Debug\net10.0\3_StructEnum.dll
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\bin\Debug\net10.0\3_StructEnum.pdb
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\3_StructEnum.dll
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\refint\3_StructEnum.dll
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\3_StructEnum.pdb
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\3_StructEnum.genruntimeconfig.cache
+E:\.net Prac\Day02\Day02_Soln\3_StructEnum\obj\Debug\net10.0\ref\3_StructEnum.dll

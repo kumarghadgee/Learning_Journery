@@ -1,0 +1,14 @@
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\bin\Debug\net10.0\01_Namespace.exe
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\bin\Debug\net10.0\01_Namespace.deps.json
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\bin\Debug\net10.0\01_Namespace.runtimeconfig.json
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\bin\Debug\net10.0\01_Namespace.dll
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\bin\Debug\net10.0\01_Namespace.pdb
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\01_Namespace.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\01_Namespace.AssemblyInfoInputs.cache
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\01_Namespace.AssemblyInfo.cs
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\01_Namespace.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\01_Namespace.dll
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\refint\01_Namespace.dll
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\01_Namespace.pdb
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\01_Namespace.genruntimeconfig.cache
+E:\.net Prac\Day02\Day02_Soln\01_Namespace\obj\Debug\net10.0\ref\01_Namespace.dll
