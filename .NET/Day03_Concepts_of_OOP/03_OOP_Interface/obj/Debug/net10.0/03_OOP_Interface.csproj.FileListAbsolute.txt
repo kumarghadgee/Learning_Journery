@@ -1,0 +1,14 @@
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\03_OOP_Interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\03_OOP_Interface.AssemblyInfoInputs.cache
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\03_OOP_Interface.AssemblyInfo.cs
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\03_OOP_Interface.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\bin\Debug\net10.0\03_OOP_Interface.exe
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\bin\Debug\net10.0\03_OOP_Interface.deps.json
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\bin\Debug\net10.0\03_OOP_Interface.runtimeconfig.json
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\bin\Debug\net10.0\03_OOP_Interface.dll
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\bin\Debug\net10.0\03_OOP_Interface.pdb
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\03_OOP_Interface.dll
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\refint\03_OOP_Interface.dll
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\03_OOP_Interface.pdb
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\03_OOP_Interface.genruntimeconfig.cache
+E:\.net Prac\Day03\Day03_Soln\03_OOP_Interface\obj\Debug\net10.0\ref\03_OOP_Interface.dll

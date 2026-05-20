@@ -1,0 +1,14 @@
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\bin\Debug\net10.0\06_Delegate.exe
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\bin\Debug\net10.0\06_Delegate.deps.json
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\bin\Debug\net10.0\06_Delegate.runtimeconfig.json
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\bin\Debug\net10.0\06_Delegate.dll
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\bin\Debug\net10.0\06_Delegate.pdb
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\06_Delegate.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\06_Delegate.AssemblyInfoInputs.cache
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\06_Delegate.AssemblyInfo.cs
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\06_Delegate.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\06_Delegate.dll
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\refint\06_Delegate.dll
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\06_Delegate.pdb
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\06_Delegate.genruntimeconfig.cache
+E:\.net Prac\Day03\Day03_Soln\06_Delegate\obj\Debug\net10.0\ref\06_Delegate.dll

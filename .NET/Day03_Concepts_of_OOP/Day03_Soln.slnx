@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="01_OOP_Inheritance/01_OOP_Inheritance.csproj" />
+  <Project Path="02_OOP_Inheritance/02_OOP_Inheritance.csproj" />
+  <Project Path="03_OOP_Interface/03_OOP_Interface.csproj" />
+  <Project Path="04_OOP_Interface/04_OOP_Interface.csproj" />
+  <Project Path="05_OOP_Generic/05_OOP_Generic.csproj" />
+  <Project Path="06_Delegate/06_Delegate.csproj" />
+</Solution>

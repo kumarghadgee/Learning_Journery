@@ -1,0 +1,14 @@
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\bin\Debug\net10.0\02_OOP_Inheritance.exe
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\bin\Debug\net10.0\02_OOP_Inheritance.deps.json
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\bin\Debug\net10.0\02_OOP_Inheritance.runtimeconfig.json
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\bin\Debug\net10.0\02_OOP_Inheritance.dll
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\bin\Debug\net10.0\02_OOP_Inheritance.pdb
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\02_OOP_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\02_OOP_Inheritance.AssemblyInfoInputs.cache
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\02_OOP_Inheritance.AssemblyInfo.cs
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\02_OOP_Inheritance.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\02_OOP_Inheritance.dll
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\refint\02_OOP_Inheritance.dll
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\02_OOP_Inheritance.pdb
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\02_OOP_Inheritance.genruntimeconfig.cache
+E:\.net Prac\Day03\Day03_Soln\02_OOP_Inheritance\obj\Debug\net10.0\ref\02_OOP_Inheritance.dll

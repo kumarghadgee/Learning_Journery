@@ -1,0 +1,14 @@
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\bin\Debug\net10.0\05_OOP_Generic.exe
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\bin\Debug\net10.0\05_OOP_Generic.deps.json
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\bin\Debug\net10.0\05_OOP_Generic.runtimeconfig.json
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\bin\Debug\net10.0\05_OOP_Generic.dll
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\bin\Debug\net10.0\05_OOP_Generic.pdb
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\05_OOP_Generic.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\05_OOP_Generic.AssemblyInfoInputs.cache
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\05_OOP_Generic.AssemblyInfo.cs
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\05_OOP_Generic.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\05_OOP_Generic.dll
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\refint\05_OOP_Generic.dll
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\05_OOP_Generic.pdb
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\05_OOP_Generic.genruntimeconfig.cache
+E:\.net Prac\Day03\Day03_Soln\05_OOP_Generic\obj\Debug\net10.0\ref\05_OOP_Generic.dll
