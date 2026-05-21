@@ -1,0 +1,14 @@
+E:\.net Prac\Day04\Day04_Soln\05_Collections\bin\Debug\net10.0\05_Collections.exe
+E:\.net Prac\Day04\Day04_Soln\05_Collections\bin\Debug\net10.0\05_Collections.deps.json
+E:\.net Prac\Day04\Day04_Soln\05_Collections\bin\Debug\net10.0\05_Collections.runtimeconfig.json
+E:\.net Prac\Day04\Day04_Soln\05_Collections\bin\Debug\net10.0\05_Collections.dll
+E:\.net Prac\Day04\Day04_Soln\05_Collections\bin\Debug\net10.0\05_Collections.pdb
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\05_Collections.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\05_Collections.AssemblyInfoInputs.cache
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\05_Collections.AssemblyInfo.cs
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\05_Collections.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\05_Collections.dll
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\refint\05_Collections.dll
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\05_Collections.pdb
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\05_Collections.genruntimeconfig.cache
+E:\.net Prac\Day04\Day04_Soln\05_Collections\obj\Debug\net10.0\ref\05_Collections.dll

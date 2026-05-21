@@ -1,0 +1,14 @@
+E:\.net Prac\Day04\Day04_Soln\01_Events\bin\Debug\net10.0\01_Events.exe
+E:\.net Prac\Day04\Day04_Soln\01_Events\bin\Debug\net10.0\01_Events.deps.json
+E:\.net Prac\Day04\Day04_Soln\01_Events\bin\Debug\net10.0\01_Events.runtimeconfig.json
+E:\.net Prac\Day04\Day04_Soln\01_Events\bin\Debug\net10.0\01_Events.dll
+E:\.net Prac\Day04\Day04_Soln\01_Events\bin\Debug\net10.0\01_Events.pdb
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\01_Events.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\01_Events.AssemblyInfoInputs.cache
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\01_Events.AssemblyInfo.cs
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\01_Events.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\01_Events.dll
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\refint\01_Events.dll
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\01_Events.pdb
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\01_Events.genruntimeconfig.cache
+E:\.net Prac\Day04\Day04_Soln\01_Events\obj\Debug\net10.0\ref\01_Events.dll

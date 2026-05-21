@@ -1,0 +1,14 @@
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\02_ImproveEvents.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\02_ImproveEvents.AssemblyInfoInputs.cache
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\02_ImproveEvents.AssemblyInfo.cs
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\02_ImproveEvents.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\bin\Debug\net10.0\02_ImproveEvents.exe
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\bin\Debug\net10.0\02_ImproveEvents.deps.json
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\bin\Debug\net10.0\02_ImproveEvents.runtimeconfig.json
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\bin\Debug\net10.0\02_ImproveEvents.dll
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\bin\Debug\net10.0\02_ImproveEvents.pdb
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\02_ImproveEvents.dll
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\refint\02_ImproveEvents.dll
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\02_ImproveEvents.pdb
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\02_ImproveEvents.genruntimeconfig.cache
+E:\.net Prac\Day04\Day04_Soln\02_ImproveEvents\obj\Debug\net10.0\ref\02_ImproveEvents.dll

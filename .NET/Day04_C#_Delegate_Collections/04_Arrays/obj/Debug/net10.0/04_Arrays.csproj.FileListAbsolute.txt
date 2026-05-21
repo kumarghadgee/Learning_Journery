@@ -1,0 +1,14 @@
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\bin\Debug\net10.0\04_Arrays.exe
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\bin\Debug\net10.0\04_Arrays.deps.json
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\bin\Debug\net10.0\04_Arrays.runtimeconfig.json
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\bin\Debug\net10.0\04_Arrays.dll
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\bin\Debug\net10.0\04_Arrays.pdb
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\04_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\04_Arrays.AssemblyInfoInputs.cache
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\04_Arrays.AssemblyInfo.cs
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\04_Arrays.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\04_Arrays.dll
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\refint\04_Arrays.dll
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\04_Arrays.pdb
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\04_Arrays.genruntimeconfig.cache
+E:\.net Prac\Day04\Day04_Soln\04_Arrays\obj\Debug\net10.0\ref\04_Arrays.dll

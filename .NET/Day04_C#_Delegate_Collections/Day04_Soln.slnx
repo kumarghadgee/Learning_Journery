@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="01_Events/01_Events.csproj" />
+  <Project Path="02_ImproveEvents/02_ImproveEvents.csproj" />
+  <Project Path="04_Arrays/04_Arrays.csproj" />
+  <Project Path="05_Collections/05_Collections.csproj" />
+  <Project Path="06_Generic_Collections/06_Generic_Collections.csproj" />
+  <Project Path="_03_Generic_Delegate/03_Generic_Delegate.csproj" />
+</Solution>
