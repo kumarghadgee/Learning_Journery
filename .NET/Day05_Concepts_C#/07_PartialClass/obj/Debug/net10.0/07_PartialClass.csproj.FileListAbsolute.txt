@@ -1,0 +1,14 @@
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\bin\Debug\net10.0\07_PartialClass.exe
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\bin\Debug\net10.0\07_PartialClass.deps.json
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\bin\Debug\net10.0\07_PartialClass.runtimeconfig.json
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\bin\Debug\net10.0\07_PartialClass.dll
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\bin\Debug\net10.0\07_PartialClass.pdb
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\07_PartialClass.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\07_PartialClass.AssemblyInfoInputs.cache
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\07_PartialClass.AssemblyInfo.cs
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\07_PartialClass.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\07_PartialClass.dll
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\refint\07_PartialClass.dll
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\07_PartialClass.pdb
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\07_PartialClass.genruntimeconfig.cache
+E:\.net Prac\Day05\Day05_Soln\07_PartialClass\obj\Debug\net10.0\ref\07_PartialClass.dll

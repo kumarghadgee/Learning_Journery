@@ -1,0 +1,14 @@
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\bin\Debug\net10.0\04_Nullable.exe
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\bin\Debug\net10.0\04_Nullable.deps.json
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\bin\Debug\net10.0\04_Nullable.runtimeconfig.json
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\bin\Debug\net10.0\04_Nullable.dll
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\bin\Debug\net10.0\04_Nullable.pdb
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\04_Nullable.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\04_Nullable.AssemblyInfoInputs.cache
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\04_Nullable.AssemblyInfo.cs
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\04_Nullable.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\04_Nullable.dll
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\refint\04_Nullable.dll
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\04_Nullable.pdb
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\04_Nullable.genruntimeconfig.cache
+E:\.net Prac\Day05\Day05_Soln\04_Nullable\obj\Debug\net10.0\ref\04_Nullable.dll

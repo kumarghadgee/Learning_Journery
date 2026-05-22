@@ -1,0 +1,14 @@
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\bin\Debug\net10.0\06_FileIO.exe
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\bin\Debug\net10.0\06_FileIO.deps.json
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\bin\Debug\net10.0\06_FileIO.runtimeconfig.json
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\bin\Debug\net10.0\06_FileIO.dll
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\bin\Debug\net10.0\06_FileIO.pdb
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\06_FileIO.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\06_FileIO.AssemblyInfoInputs.cache
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\06_FileIO.AssemblyInfo.cs
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\06_FileIO.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\06_FileIO.dll
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\refint\06_FileIO.dll
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\06_FileIO.pdb
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\06_FileIO.genruntimeconfig.cache
+E:\.net Prac\Day05\Day05_Soln\06_FileIO\obj\Debug\net10.0\ref\06_FileIO.dll

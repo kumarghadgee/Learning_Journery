@@ -1,0 +1,14 @@
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\bin\Debug\net10.0\02_Operator_Overloading.exe
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\bin\Debug\net10.0\02_Operator_Overloading.deps.json
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\bin\Debug\net10.0\02_Operator_Overloading.runtimeconfig.json
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\bin\Debug\net10.0\02_Operator_Overloading.dll
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\bin\Debug\net10.0\02_Operator_Overloading.pdb
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\02_Operator_Overloading.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\02_Operator_Overloading.AssemblyInfoInputs.cache
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\02_Operator_Overloading.AssemblyInfo.cs
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\02_Operator_Overloading.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\02_Operator_Overloading.dll
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\refint\02_Operator_Overloading.dll
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\02_Operator_Overloading.pdb
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\02_Operator_Overloading.genruntimeconfig.cache
+E:\.net Prac\Day05\Day05_Soln\02_Operator_Overloading\obj\Debug\net10.0\ref\02_Operator_Overloading.dll

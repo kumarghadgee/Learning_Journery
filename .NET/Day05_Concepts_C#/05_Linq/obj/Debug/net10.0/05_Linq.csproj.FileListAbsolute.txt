@@ -1,0 +1,14 @@
+E:\.net Prac\Day05\Day05_Soln\05_Linq\bin\Debug\net10.0\05_Linq.exe
+E:\.net Prac\Day05\Day05_Soln\05_Linq\bin\Debug\net10.0\05_Linq.deps.json
+E:\.net Prac\Day05\Day05_Soln\05_Linq\bin\Debug\net10.0\05_Linq.runtimeconfig.json
+E:\.net Prac\Day05\Day05_Soln\05_Linq\bin\Debug\net10.0\05_Linq.dll
+E:\.net Prac\Day05\Day05_Soln\05_Linq\bin\Debug\net10.0\05_Linq.pdb
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\05_Linq.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\05_Linq.AssemblyInfoInputs.cache
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\05_Linq.AssemblyInfo.cs
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\05_Linq.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\05_Linq.dll
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\refint\05_Linq.dll
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\05_Linq.pdb
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\05_Linq.genruntimeconfig.cache
+E:\.net Prac\Day05\Day05_Soln\05_Linq\obj\Debug\net10.0\ref\05_Linq.dll
