@@ -1,0 +1,14 @@
+E:\.net Prac\Day06\Day06_Soln\Calculator\bin\Debug\net10.0\Calculator.exe
+E:\.net Prac\Day06\Day06_Soln\Calculator\bin\Debug\net10.0\Calculator.deps.json
+E:\.net Prac\Day06\Day06_Soln\Calculator\bin\Debug\net10.0\Calculator.runtimeconfig.json
+E:\.net Prac\Day06\Day06_Soln\Calculator\bin\Debug\net10.0\Calculator.dll
+E:\.net Prac\Day06\Day06_Soln\Calculator\bin\Debug\net10.0\Calculator.pdb
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\Calculator.AssemblyInfoInputs.cache
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\Calculator.AssemblyInfo.cs
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\Calculator.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\Calculator.dll
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\refint\Calculator.dll
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\Calculator.pdb
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\Calculator.genruntimeconfig.cache
+E:\.net Prac\Day06\Day06_Soln\Calculator\obj\Debug\net10.0\ref\Calculator.dll

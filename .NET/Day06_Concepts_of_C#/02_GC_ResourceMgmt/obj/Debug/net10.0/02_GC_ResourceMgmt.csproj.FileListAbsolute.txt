@@ -1,0 +1,14 @@
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\02_GC_ResourceMgmt.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\02_GC_ResourceMgmt.AssemblyInfoInputs.cache
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\02_GC_ResourceMgmt.AssemblyInfo.cs
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\02_GC_ResourceMgmt.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\bin\Debug\net10.0\02_GC_ResourceMgmt.exe
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\bin\Debug\net10.0\02_GC_ResourceMgmt.deps.json
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\bin\Debug\net10.0\02_GC_ResourceMgmt.runtimeconfig.json
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\bin\Debug\net10.0\02_GC_ResourceMgmt.dll
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\bin\Debug\net10.0\02_GC_ResourceMgmt.pdb
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\02_GC_ResourceMgmt.dll
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\refint\02_GC_ResourceMgmt.dll
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\02_GC_ResourceMgmt.pdb
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\02_GC_ResourceMgmt.genruntimeconfig.cache
+E:\.net Prac\Day06\Day06_Soln\02_GC_ResourceMgmt\obj\Debug\net10.0\ref\02_GC_ResourceMgmt.dll

@@ -1,0 +1,14 @@
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\bin\Debug\net10.0\03_Dynamic.exe
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\bin\Debug\net10.0\03_Dynamic.deps.json
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\bin\Debug\net10.0\03_Dynamic.runtimeconfig.json
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\bin\Debug\net10.0\03_Dynamic.dll
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\bin\Debug\net10.0\03_Dynamic.pdb
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\03_Dynamic.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\03_Dynamic.AssemblyInfoInputs.cache
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\03_Dynamic.AssemblyInfo.cs
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\03_Dynamic.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\03_Dynamic.dll
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\refint\03_Dynamic.dll
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\03_Dynamic.pdb
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\03_Dynamic.genruntimeconfig.cache
+E:\.net Prac\Day06\Day06_Soln\03_Dynamic\obj\Debug\net10.0\ref\03_Dynamic.dll

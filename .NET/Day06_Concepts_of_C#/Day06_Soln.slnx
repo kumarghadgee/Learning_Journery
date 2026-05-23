@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="01_Serialization/01_Serialization.csproj" />
+  <Project Path="02_GC_ResourceMgmt/02_GC_ResourceMgmt.csproj" Id="21f80927-ece1-4ba5-890b-af3c2d92ab9a" />
+  <Project Path="03_Dynamic/03_Dynamic.csproj" Id="a68dd493-2af0-4c2b-ac75-93ae986858c8" />
+  <Project Path="04_Reflection/04_Reflection.csproj" Id="54e31342-6bb7-4c86-b06e-d06441cd5b25" />
+  <Project Path="05_Exception/05_Exception.csproj" Id="2db674b5-1b2a-44d5-918a-e71d123f7ab6" />
+  <Project Path="Calculator/Calculator.csproj" Id="268eb5e4-ac0c-4d99-a3ce-b8dcb2497226" />
+</Solution>

@@ -1,0 +1,14 @@
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\05_Exception.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\05_Exception.AssemblyInfoInputs.cache
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\05_Exception.AssemblyInfo.cs
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\05_Exception.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day06\Day06_Soln\05_Exception\bin\Debug\net10.0\05_Exception.exe
+E:\.net Prac\Day06\Day06_Soln\05_Exception\bin\Debug\net10.0\05_Exception.deps.json
+E:\.net Prac\Day06\Day06_Soln\05_Exception\bin\Debug\net10.0\05_Exception.runtimeconfig.json
+E:\.net Prac\Day06\Day06_Soln\05_Exception\bin\Debug\net10.0\05_Exception.dll
+E:\.net Prac\Day06\Day06_Soln\05_Exception\bin\Debug\net10.0\05_Exception.pdb
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\05_Exception.dll
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\refint\05_Exception.dll
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\05_Exception.pdb
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\05_Exception.genruntimeconfig.cache
+E:\.net Prac\Day06\Day06_Soln\05_Exception\obj\Debug\net10.0\ref\05_Exception.dll

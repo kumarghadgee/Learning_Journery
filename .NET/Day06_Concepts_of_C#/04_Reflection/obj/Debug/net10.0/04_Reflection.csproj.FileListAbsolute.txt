@@ -1,0 +1,14 @@
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\bin\Debug\net10.0\04_Reflection.exe
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\bin\Debug\net10.0\04_Reflection.deps.json
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\bin\Debug\net10.0\04_Reflection.runtimeconfig.json
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\bin\Debug\net10.0\04_Reflection.dll
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\bin\Debug\net10.0\04_Reflection.pdb
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\04_Reflection.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\04_Reflection.AssemblyInfoInputs.cache
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\04_Reflection.AssemblyInfo.cs
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\04_Reflection.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\04_Reflection.dll
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\refint\04_Reflection.dll
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\04_Reflection.pdb
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\04_Reflection.genruntimeconfig.cache
+E:\.net Prac\Day06\Day06_Soln\04_Reflection\obj\Debug\net10.0\ref\04_Reflection.dll
