@@ -1,0 +1,14 @@
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\03_Performance.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\03_Performance.AssemblyInfoInputs.cache
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\03_Performance.AssemblyInfo.cs
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\03_Performance.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day07\Day07Soln\03_Performance\bin\Debug\net10.0\03_Performance.exe
+E:\.net Prac\Day07\Day07Soln\03_Performance\bin\Debug\net10.0\03_Performance.deps.json
+E:\.net Prac\Day07\Day07Soln\03_Performance\bin\Debug\net10.0\03_Performance.runtimeconfig.json
+E:\.net Prac\Day07\Day07Soln\03_Performance\bin\Debug\net10.0\03_Performance.dll
+E:\.net Prac\Day07\Day07Soln\03_Performance\bin\Debug\net10.0\03_Performance.pdb
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\03_Performance.dll
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\refint\03_Performance.dll
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\03_Performance.pdb
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\03_Performance.genruntimeconfig.cache
+E:\.net Prac\Day07\Day07Soln\03_Performance\obj\Debug\net10.0\ref\03_Performance.dll

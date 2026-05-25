@@ -1,0 +1,14 @@
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\bin\Debug\net10.0\01_OOP_Revision.exe
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\bin\Debug\net10.0\01_OOP_Revision.deps.json
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\bin\Debug\net10.0\01_OOP_Revision.runtimeconfig.json
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\bin\Debug\net10.0\01_OOP_Revision.dll
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\bin\Debug\net10.0\01_OOP_Revision.pdb
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\01_OOP_Revision.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\01_OOP_Revision.AssemblyInfoInputs.cache
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\01_OOP_Revision.AssemblyInfo.cs
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\01_OOP_Revision.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\01_OOP_Revision.dll
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\refint\01_OOP_Revision.dll
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\01_OOP_Revision.pdb
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\01_OOP_Revision.genruntimeconfig.cache
+E:\.net Prac\Day07\Day07Soln\01_OOP_Revision\obj\Debug\net10.0\ref\01_OOP_Revision.dll

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="01_OOP_Revision/01_OOP_Revision.csproj" />
+  <Project Path="02_Linq/02_Linq.csproj" Id="3819a6d3-ca52-48b0-bfd5-3ff4ef8a57ec" />
+  <Project Path="03_Performance/03_Performance.csproj" Id="f2bf5a8e-4e06-461c-870b-ae660dae5235" />
+</Solution>
