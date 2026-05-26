@@ -1,0 +1,6 @@
+E:\.net Prac\Day08\Day08Soln\01_ORMAttributes\bin\Debug\01_ORMAttributes.dll
+E:\.net Prac\Day08\Day08Soln\01_ORMAttributes\bin\Debug\01_ORMAttributes.pdb
+E:\.net Prac\Day08\Day08Soln\01_ORMAttributes\obj\Debug\01_ORMAttributes.csproj.AssemblyReference.cache
+E:\.net Prac\Day08\Day08Soln\01_ORMAttributes\obj\Debug\01_ORMAttributes.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day08\Day08Soln\01_ORMAttributes\obj\Debug\01_ORMAttributes.dll
+E:\.net Prac\Day08\Day08Soln\01_ORMAttributes\obj\Debug\01_ORMAttributes.pdb

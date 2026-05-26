@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="01_ORMAttributes/01_ORMAttributes.csproj" Id="27832538-ebf8-4025-ba8c-0a0f8844222a" />
+  <Project Path="01_ORMToolUsingReflection/03_ORMToolUsingReflection.csproj" Id="4123a502-f2dd-4332-8290-af3e07ba4a7e" />
+  <Project Path="02_ORMPocos/02_ORMPocos.csproj" Id="41d1f532-d6cc-4cb1-ac47-a594a2cd4e47" />
+  <Project Path="04_DBProgramming/04_DBSelectQuery.csproj" Id="4a30baea-c57d-45c8-943d-e422b792759f" />
+  <Project Path="05_DBProgramming/05_DBInsertQuery.csproj" Id="d4d174db-a6f9-4093-9447-51fa447f7f2a" />
+  <Project Path="06_DBProgramming/06_DBUpdateQuery.csproj" Id="ce431e41-1b4f-479c-862e-564790f438eb" />
+  <Project Path="07_DBProgramming/07_DBDeleteQuery.csproj" Id="29080abb-d0e9-4f3e-801f-52ffb93404ee" />
+</Solution>

@@ -1,0 +1,9 @@
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\bin\Debug\02_ORMPocos.dll
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\bin\Debug\02_ORMPocos.pdb
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\bin\Debug\01_ORMAttributes.dll
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\bin\Debug\01_ORMAttributes.pdb
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\obj\Debug\02_ORMPocos.csproj.AssemblyReference.cache
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\obj\Debug\02_ORMPocos.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\obj\Debug\02_ORMPo.774C9105.Up2Date
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\obj\Debug\02_ORMPocos.dll
+E:\.net Prac\Day08\Day08Soln\02_ORMPocos\obj\Debug\02_ORMPocos.pdb
