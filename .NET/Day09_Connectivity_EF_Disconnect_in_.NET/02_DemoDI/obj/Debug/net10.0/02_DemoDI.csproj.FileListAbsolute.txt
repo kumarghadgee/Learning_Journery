@@ -1,0 +1,14 @@
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\bin\Debug\net10.0\02_DemoDI.exe
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\bin\Debug\net10.0\02_DemoDI.deps.json
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\bin\Debug\net10.0\02_DemoDI.runtimeconfig.json
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\bin\Debug\net10.0\02_DemoDI.dll
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\bin\Debug\net10.0\02_DemoDI.pdb
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\02_DemoDI.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\02_DemoDI.AssemblyInfoInputs.cache
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\02_DemoDI.AssemblyInfo.cs
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\02_DemoDI.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\02_DemoDI.dll
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\refint\02_DemoDI.dll
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\02_DemoDI.pdb
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\02_DemoDI.genruntimeconfig.cache
+E:\.net Prac\Day09\Day09Soln\02_DemoDI\obj\Debug\net10.0\ref\02_DemoDI.dll

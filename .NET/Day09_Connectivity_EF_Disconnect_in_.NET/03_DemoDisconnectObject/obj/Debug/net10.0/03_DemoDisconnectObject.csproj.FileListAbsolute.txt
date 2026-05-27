@@ -1,0 +1,14 @@
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\bin\Debug\net10.0\03_DemoDisconnectObject.exe
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\bin\Debug\net10.0\03_DemoDisconnectObject.deps.json
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\bin\Debug\net10.0\03_DemoDisconnectObject.runtimeconfig.json
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\bin\Debug\net10.0\03_DemoDisconnectObject.dll
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\bin\Debug\net10.0\03_DemoDisconnectObject.pdb
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\03_DemoDisconnectObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\03_DemoDisconnectObject.AssemblyInfoInputs.cache
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\03_DemoDisconnectObject.AssemblyInfo.cs
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\03_DemoDisconnectObject.csproj.CoreCompileInputs.cache
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\03_DemoDisconnectObject.dll
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\refint\03_DemoDisconnectObject.dll
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\03_DemoDisconnectObject.pdb
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\03_DemoDisconnectObject.genruntimeconfig.cache
+E:\.net Prac\Day09\Day09Soln\03_DemoDisconnectObject\obj\Debug\net10.0\ref\03_DemoDisconnectObject.dll

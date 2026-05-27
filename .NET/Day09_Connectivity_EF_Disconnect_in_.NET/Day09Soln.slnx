@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="01_DemoCrudOperations/01_DemoCrudOperations.csproj" />
+  <Project Path="02_DemoDI/02_DemoDI.csproj" />
+  <Project Path="03_DemoDisconnectObject/03_DemoDisconnectObject.csproj" />
+  <Project Path="04_DemoDisconnection/04_DemoDisconnection.csproj" />
+  <Project Path="05_DemoEntityFramework/05_DemoEntityFramework.csproj" />
+</Solution>
