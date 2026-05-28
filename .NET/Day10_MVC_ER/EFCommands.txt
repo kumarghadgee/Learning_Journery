@@ -1,0 +1,8 @@
+-- for code first / model first approach w.r.t. SQL Server
+
+1. add-migration <migrationname>
+2. update-database
+
+-- for database first approach w.r.t. SQL Server database and tables
+
+1.  scaffold-dbcontext "Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=KaradDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -tables Emp,Subjects -outputDir Pocos 

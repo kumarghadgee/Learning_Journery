@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="01_DemoEntityFramework/01_DemoEntityFramework.csproj" />
+  <Project Path="02_DBProgrammingStoredProcedure/02_DBProgrammingStoredProcedure.csproj" />
+  <Project Path="03_DemoMVC/03_DemoMVC.csproj" />
+</Solution>
