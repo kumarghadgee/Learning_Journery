@@ -1,0 +1,29 @@
+﻿@model _001DemoMVC.Models.Emp
+<html>
+    <head>
+<title>Sample Index</title>
+    </head>
+<body>
+        <h1>Sample Index</h1>
+        <hr />
+<h2>Employee Details</h2>
+<p>
+    <b>Employee Name:</b> @Model.Name
+    <b>Employee Address:</b> @Model.Address
+</p>
+<hr />
+<h1>
+        @ViewData["Message"]
+</h1>
+<h2>
+        @ViewData["AnotherMessage"]
+</h2>
+<h2>
+        @ViewBag.MyBook.Title
+</h2>
+    <h2>
+        @ViewBag.MyBook.Author
+    </h2>
+
+</body>
+</html>
