@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src= "~/Images/logo.png" class="img-fluid" />
+        <hr/>
+        <a href="/Home/Index">Home</a> |
+        <a href="/Home/About">About</a> |
+        <a href="/Home/Contact">Contact</a> |
+        <a href="/Demo/Test">Test Call</a>
+        <hr />
+        @RenderBody()
+        <hr />
+        <center>
+            <h1>Developed by SunBeam,Karad</h1>
+        </center>
+        <hr />
+        @RenderSection("ContentNo1FromActualPage", false)
+    </div>
+</body>
+</html>

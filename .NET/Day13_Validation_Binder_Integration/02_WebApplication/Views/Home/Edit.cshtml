@@ -1,0 +1,55 @@
+﻿@model _02_WebApplication.Models.Emp;
+
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container mt-1">
+        <a href="/Home/Index" class="btn btn-primary">Back To Home</a>
+        <hr />
+        <h1>Edit Employee Details</h1>
+        <form action="/Home/AfterEdit" method="post">
+            <div class="table-responsive">
+                <table class="table table-bordered text-center">
+                    <tbody>
+                        <tr>
+                            <td colspan="2">
+                                <input class="form-control" type="hidden" name="No"
+                                       value="@Model.No" />
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Name:</td>
+                            <td>
+                                <input class="form-control" type="text" name="Name"
+                                       value="@Model.Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td>
+                                <input class="form-control" type="text" name="Address"
+                                       value="@Model.Address" />
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button class="btn btn-success">Update</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+
+        
+</body>
+</html>
