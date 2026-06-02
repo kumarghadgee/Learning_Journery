@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|e:\\.net prac\\day14\\onlinefoodordering_casestudy\\onlinefoodordering\\models\\resulthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1475937-18D3-447F-863E-CE52B394A0A7}|onlineFoodOrdering\\onlineFoodOrdering.csproj|solutionrelative:onlinefoodordering\\models\\resulthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kumar\\AppData\\Local\\Temp\\ang25k5n..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kumar\\AppData\\Local\\Temp\\ang25k5n..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kumar\\AppData\\Local\\Temp\\ang25k5n..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\User.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\Models\\User.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\User.cs",
+              "RelativeToolTip": "onlineFoodOrdering\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:36:20.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\DTOs\\LoginDto.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\DTOs\\LoginDto.cs*",
+              "RelativeToolTip": "onlineFoodOrdering\\DTOs\\LoginDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:48:23.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "onlineFoodOrdering\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:37:18.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Program.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\Program.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Program.cs",
+              "RelativeToolTip": "onlineFoodOrdering\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:06:02.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\appsettings.json",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\appsettings.json",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\appsettings.json",
+              "RelativeToolTip": "onlineFoodOrdering\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-02T10:56:48.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\DTOs\\RegisterDto.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "onlineFoodOrdering\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:54:15.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\DTOs\\ApiResponse.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "onlineFoodOrdering\\DTOs\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:52:35.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResultHelper.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\ResultHelper.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\Models\\ResultHelper.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\ResultHelper.cs",
+              "RelativeToolTip": "onlineFoodOrdering\\Models\\ResultHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:36:53.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\Models\\OrderDetail.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "onlineFoodOrdering\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:34:36.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "onlineFoodOrdering\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\.net Prac\\Day14\\OnlineFoodOrdering_CaseStudy\\onlineFoodOrdering\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "onlineFoodOrdering\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:28:51.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\kumar\\AppData\\Local\\Temp\\ang25k5n..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-02T10:22:02.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
