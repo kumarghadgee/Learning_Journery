@@ -1,0 +1,72 @@
+date
+cal
+cal -y
+cal -y 2024
+man cal
+man date
+pwd
+mkdir demo
+ls
+mkdir -v dir
+ls
+mkdir dir1 dir2 dir3
+ls
+mkdir demo
+mkdir -p d1/d2/d3/d4
+man mkdir
+ls
+pwd
+ls d1
+ls d1/d2
+ls d1/d2/d3
+ls d1/d2/d3/d4
+ls -R d1
+ls
+rmdir demo
+ls
+pwd
+cd d1/d2
+pwd
+cd .
+cd ..
+pwd
+cd ~
+pwd
+cd -
+pwd
+touch file.txt
+ls
+ls -s file.txt 
+touch file1.txt file2.txt file3.txt
+ls
+ls -s
+ls -s *.txt
+cat > file.txt
+cat file.txt
+cat > file.txt
+cat file.txt
+cat >> file.txt
+cat file.txt
+ls
+rm file3.txt
+ls
+rmdir d1
+ls d1
+rm -r d1
+ls
+cat file.txt 
+cp file.txt copy.txt
+ls
+cat copy.txt 
+cp file.txt dir
+ls dir
+cp -r dir copy
+ls
+ls copy
+mv file.txt move.txt
+ls
+mv file1.txt dir
+ls dir
+mv dir dir1
+ls 
+ls dir1
