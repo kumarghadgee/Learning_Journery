@@ -1,0 +1,116 @@
+ls -l file.txt 
+chmod +x file.txt 
+ls -l file.txt 
+chmod -x file.txt 
+ls -l file.txt 
+chmod u+x file.txt 
+ls -l file.txt 
+chmod o+w file.txt 
+ls -l file.txt 
+chmod u-x file.txt 
+chmod o-w file.txt 
+ls -l file.txt 
+chmod o+wx file.txt 
+ls -l file.txt 
+chmod o-wx file.txt 
+ls -l file.txt 
+chmod u+x g-w file.txt 
+stat file.txt 
+chmod u-x file.txt 
+stat file.txt 
+chmod 0744 file.txt 
+stat file.txt 
+chmod 0664 file.txt 
+stat file.txt 
+sudo ls -l /var/lib/mysql
+ls /home/
+cat /etc/passwd
+ls -l file.txt 
+chown osboxes file.txt 
+sudo chown osboxes file.txt 
+ls -l file.txt 
+sudo chown :osboxes file.txt 
+ls -l file.txt 
+sudo chown sunbeam:sunbeam file.txt 
+ls -l file.txt 
+sudo chgrp osboxes file.txt 
+ls -l file.txt 
+ls
+cd dir
+ls
+rm file.txt 
+ls
+cat > one.txt
+ls -i -l one.txt 
+cat one.txt 
+ln one.txt two.txt
+ls -i -l one.txt two.txt 
+cat two.txt 
+rm one.txt 
+ls -i -l two.txt 
+cat two.txt 
+ls
+rm two.txt 
+cat > one.txt
+ls -i -l one.txt 
+cat  one.txt
+ln -s one.txt two.txt
+ls -i -l one.txt two.txt 
+cat two.txt 
+rm one.txt 
+ls -i -l two.txt 
+cat two.txt 
+ls -l /bin
+ls -l /sbin
+ls -a
+touch .hidden.txt
+ls
+ls -a
+alias list="ls -i -l -a -h"
+list
+unalias list
+list
+alias myCat=cat
+myCat > one.txt
+myCat one.txt 
+man cd
+man alias
+type ls
+type cp
+type mkdir
+type cd
+type alias
+which ls
+which cd
+whereis ls
+whereis gcc
+pwd ls
+ls pwd
+ls ; pwd
+ls && pwd
+ls -W && pwd
+ls || pwd
+ls -W || pwd
+groups
+groups sunbeam
+vim vim.txt
+mkdir scripts
+cd scripts/
+vim script01.sh
+bash script01.sh 
+chmod +x script01.sh 
+ls -l script01.sh 
+./script01.sh
+echo $SHELL
+echo $HOME
+echo $USER
+echo $PWD
+echo $PATH
+env
+expr 10 + 20
+expr 20 - 10
+expr 20 / 5
+expr 20 \* 5
+echo "1.5 + 1.5"
+echo "1.5 + 1.5" | bc
+man test
