@@ -1,0 +1,21 @@
+package com.sunbeam;
+
+class Students{
+	int age;
+	String name;
+	
+	void Display() {
+		System.out.println(name);
+		System.out.println(age);
+	}
+}
+
+
+public class Program2 {
+	public static void main(String[] args) {
+		Students s = new Students();
+	    s.name = "Kumar";
+	    s.age = 22;
+	    s.Display();
+	}
+}

@@ -1,0 +1,36 @@
+package com.sunbeam;
+
+class Students{
+	int age;
+	String name;
+	double percentage;
+	
+	Students(int age,String Name,double percentage){
+		this.name = name;
+		this.age = age;
+		this.percentage = percentage;
+	}
+	
+	void Display() {
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(percentage);
+	}
+}
+
+
+public class Program2 {
+	public static void main(String[] args) {
+		Students s = new Students();
+	    s.name = "Kumar";
+	    s.age = 22;
+	    s.percentage = 88.16;
+	    s.Display();
+	    
+	    Students s1 = new Students();
+	    s1.name = "Gaurav";
+	    s1.age = 23;
+	    s1.percentage = 87.80;
+	    s1.Display();
+	}
+}

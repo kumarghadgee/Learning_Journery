@@ -1,0 +1,17 @@
+package com.sunbeam;
+
+class Students{
+	int age;
+	String name;
+	double percentage;
+	
+	Students(int age,String Name,double percentage){
+		this.name = name;
+		this.age = age;
+		this.percentage = percentage;
+	}
+}
+
+public class Program3 {
+
+}
