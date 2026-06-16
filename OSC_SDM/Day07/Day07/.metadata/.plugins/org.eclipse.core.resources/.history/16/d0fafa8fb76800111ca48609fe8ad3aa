@@ -1,0 +1,26 @@
+package com.sunbeam;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class demo2_test {
+	
+	public static void delay(int ms) {
+		try {
+			Thread.sleep(ms);
+		}catch(InterruptedException  e) {
+			e.printStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		
+		String url = "https://nilesh-g.github.io/learn-web/JS/demo16.html";
+		driver.get(url);
+		delay(2000);
+		
+	}
+}

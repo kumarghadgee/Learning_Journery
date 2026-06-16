@@ -1,0 +1,51 @@
+package com.sunbeam;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class demo2_test {
+	
+	public static void delay(int ms) {
+		try {
+			Thread.sleep(ms);
+		}catch(InterruptedException  e) {
+			e.printStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		
+		String url = "https://nilesh-g.github.io/learn-web/JS/demo16.html";
+		driver.get(url);
+		delay(2000);
+		
+		String title = driver.getTitle();
+		System.out.println("PageTitle : "+title);
+		System.out.println();
+		
+		WebElement nameElem = driver.findElement(By.id("nameInput"));
+		nameElem.sendKeys("Kumargaurav Ghadge");
+		delay(2000);
+		
+		WebElement emailElem = driver.findElement(By.id("emailInput"));
+		emailElem.sendKeys("kumar01@gmail.com");
+		delay(2000);
+		
+		WebElement mobileElem = driver.findElement(By.id("mobileInput"));
+		mobileElem.sendKeys("9876543210");
+		delay(2000);
+		
+		WebElement queryElem = driver.findElement(By.id("queryInput"));
+		queryElem.sendKeys("What is the placement stats of Cp-ac course");
+		delay(2000);
+		
+		WebElement submitElem = driver.findElement(By.id("input[type='submit']"));
+		submitElem.click();
+		delay(2000);
+		
+		driver.quit();
+	}
+}
