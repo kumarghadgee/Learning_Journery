@@ -1,0 +1,27 @@
+services:   
+  db:
+    build: db
+    image: mern-db
+    container_name: mern-db-c
+    environment:
+      MYSQL_ROOT_PASSWORD: manager
+
+  api:
+    build: backend
+    image: mern-be
+    container_name: mern-be-c
+    environment:
+      DB_HOST: mern-db-c
+    depends_on:
+      - db
+    ports:
+      - 3000:3000
+
+  ui:
+    build: frontend
+    image: mern-fe
+    container_name: mern-fe-c
+    depends_on:
+      - api
+    ports:
+      - 8084:80
