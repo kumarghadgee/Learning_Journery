@@ -1,0 +1,23 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Arithmetic ar = new Arithmetic();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Two Numbers : ");
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		int result = ar.Add(num1, num2);
+		System.out.println("Addition : "+ result);
+		
+		int res =  ar.Subtract(num1, num2);
+		System.out.println("Subtraction : "+ res);
+		
+		int resu = ar.Multiply(num1, num2);
+		System.out.println("Multiply : "+ resu);
+	}
+
+}

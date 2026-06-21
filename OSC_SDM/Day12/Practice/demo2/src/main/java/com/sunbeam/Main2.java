@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+ 
+public class Main2 {
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		String url = "https://nilesh-g.github.io/learn-web/HTML/demo08.html";
+		driver.get(url);
+		String title = driver.getTitle();
+		System.out.println("PageTitle : "+title);
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class Geometry {
+	Arithmetic ar = new Arithmetic();
+	
+	public int Multiply(int length,int breadth) {
+		return ar.Multiply(length, breadth);
+	}
+}

@@ -1,0 +1,36 @@
+package com.sunbeam;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ArithemeticTest {
+
+	@Test
+	void testAdd() {
+		Arithmetic ar;
+		ar = new Arithmetic();
+		int actual = ar.Add(20, 20);
+		int expected = 30;
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	void testSubtract() {
+		Arithmetic ar;
+		ar = new Arithmetic();
+		int actual = ar.Subtract(3500,3400);
+		int expected = 100;
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	void testMultiply() {
+		Arithmetic ar;
+		ar = new Arithmetic();
+		int actual = ar.Multiply(35,100);
+		int expected = 3500;
+		assertEquals(expected,actual);
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.sunbeam;
+
+import java.util.List;
+
+public class WebDriver {
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		String url = "https://nilesh-g.github.io/learn-web/HTML/demo08.html";
+		driver.get(url);
+		String title = driver.getTitle();
+		System.out.println("PageTitle : "+title);
+		System.out.println();
+	}
+
+}

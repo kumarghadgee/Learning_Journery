@@ -1,0 +1,22 @@
+package com.sunbeam;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriverService;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.GeckoDriverService;
+ 
+public class Main2 {
+	public static void main(String[] args) {
+		FirefoxDriverService service = new GeckoDriverService.Builder()
+                .withEnvironment(java.util.Map.of("PATH", "")) 
+                .build();
+		WebDriver driver = new FirefoxDriver(service);
+		String url = "https://nilesh-g.github.io/learn-web/HTML/demo08.html";
+		driver.get(url);
+		String title = driver.getTitle();
+		System.out.println("PageTitle : "+title);
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class WebDriver {
+	public static void main(String[] args) {
+		WebDriver wb = new FirefoxDriver();
+		String url = "https://nilesh-g.github.io/learn-web/HTML/demo08.html";
+		driver.get(url);
+	}
+}
