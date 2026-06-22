@@ -1,0 +1,49 @@
+How to enable Java Web  tools in STS 5 
+
+This works on Windows and Mac exactly the same way.
+I have already installed them for windows users , in the supplied 7z .
+Only Mac uses will have to take below steps.
+
+1. Launch STS 5
+Help → Eclipse Marketplace
+
+2. Search for:
+
+Enterprise Java
+
+Look for:
+
+Eclipse Enterprise Java and Web Developer Tools
+
+Install it.
+
+3. Click:
+
+Install → Confirm → Accept License → Finish
+
+4. 
+Restart STS 5.
+
+5. After restart , Change the perspective to Java EE
+
+Window → Perspective → Open Perspective → Other → Java EE
+
+This makes Servlet/JSP development much easier.
+
+6. Add  Tomcat Runtime
+
+Go to:
+
+Window → Preferences → Server → Runtime Environments
+
+Click
+
+Add → Apache → Tomcat v10.1
+
+Select your Tomcat installation folder.
+
+Use JRE as JDK 21.
+
+7. Create Dynamic Web Project 
+for Servlet ,  JSP with  Server → Tomcat
+

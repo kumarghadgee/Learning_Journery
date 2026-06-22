@@ -1,0 +1,225 @@
+Day 1 Agenda
+Introduce Java EE (Jakarta EE)
+Add Web Server - Apache supplied Tomcat
+ - STS 5 Workspace
+Understand HTTP request - response flow
+Create dynamic web project (web site)
+What is a Servlet
+ why
+HelloWorldServlet
+ - renders wlocme message
+....
+
+
+What is Java EE (Jakarta EE) ?
+ - Specifications meant for developing server side enterprise(corporate level | industry grade) applications
+- Tells Java EE server vendors 
+  - WHAT is to be done.
+
+Eg - Servlet specs(Specifications) , JSP (Java Server Page) , JPA (Java Persistentce API)
+, JSTL (JSP Standard Tag library) , RESTful web service , JMS(Java Messaging service )....
+
+Implementation of these services 
+- is left to Server Vendors
+
+Vendor
+ - Apache 
+ - Web server 
+   - Tomcat 10.1.x
+ - Application Server
+ - Tomee
+
+- Oracle 
+ - Glassfish
+- Oracle Weblogic
+ Oracle Weblogic Server
+
+IBM
+ - Websphere
+Red Hat
+ - JBoss
+
+Why Enterprise Java 
+1. Java EE server independent
+ - Write a web app on ANY Java server & can be deployed without making any changes on any other Java server.
+
+2. Can support different type of clients
+- Web client (having web browser only)
+- Front end App (REST Client)
+- Java Application client
+- Mobile client
+
+3. Since web server implements the APIs
+- Developers uses these APIs , annotations
+- Can focus more on the core logic (eg. Business logic, Request handling ...)
+
+Version 
+ - Apache Tomcat 10.1 supports
+ - Jakarta EE 9 & 10
+ - Eclipse Foundation
+
+Earlier 
+Till 8 - Java EE (Enterprise Edition)
+ - Oracle / Sun 
+
+Enter Servlets
+What is it ?
+ - Java class
+  - without main(..) method
+- dynamic web component 
+ - whose life cycle will be managed by WC(Web Container - server side runtime - JVM)
+- init , service , destroy
+
+Why Servlets ?
+It performs following jobs
+- Request Processing
+- Business Logic
+- Data Access Logic
+- Page Navigation Logic
+- Dynamic response generation
+
+How to create & deploy a servlet ?
+1. Create a Servlet under 
+ - src/main/java
+  - <pages> / HelloWorldServlet.java
+
+2. To handle HTTP GET request
+ - override the inherited method
+protected void doGet(HttpServletRequest request,HttpServletResponse resp) 
+ throws ServletException , IOException
+
+2.1 Set response content type (response header)
+Method of ServletResponse (super interface of HttpServletResponse)
+public void setContentType(String contType)
+
+2.2 Get Writer (java.io) <---- PrintWriter , to send response form servlet -> client
+public PrintWriter getWriter() throws IOException
+
+PrintWriter - buffered writer .
+- implements AutoCloseable interface
+
+2.3 To add response body
+ - use print | write methods of PrintWriter
+
+2.4 Upon closing of PrintWriter (via try-with -resources)
+ - response is rendered to client.
+
+
+Why HttpServlet is an abstract class with 100% concrete methods?
+ - It is an abstract class 
+  - so that prog can't create it's instance directly.
+
+ - It has implemented 
+ - service method as well as doXXX  methods 
+  doGet ,doPost, doPut,doDelete.....
+ - so that prog can ONLY override the required one , w/o implementing all !
+
+
+How to declare a Servlet ?
+OR
+How to register | deploy a servlet with WC ?
+2 ways
+1. Modern way
+ - annotations
+Eg.
+@WebServlet("/hello")
+public class MyServlet extends HttpServlet {....}
+
+- class level mandatory , run time annotation meant for WC
+- To declare a mapping between
+ - incoming request & the servlet.
+
+WC creates a Map (HashMap) at the app start up
+Key -  url-pattern (eg. /hello)
+Value - Fully qualified class name of the servlet (eg. pages.MyServlet)
+
+So that any time client sends a URL , ending with /hello
+-> WC uses MyServlet for its servicing.
+
+eg. URL 
+http://localhost:8080/day1.1/hello
+
+http - protocol (scheme)
+
+localhost - Host name (IP address)
+
+8080- TCP port no
+
+/day1.1/hello - path (URI)
+
+/day1.1 - context path (name of web app)
+
+/hello - URL pattern
+
+OR
+
+2. Legacy 
+- XML tags in web.xml
+Servlet deployment tags
+<servlet>
+ <servlet-name>abc</servlet-name>
+ <servlet-class>pages.HelloServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>abc</servlet-name>
+ <url-pattern> /hello <url-pattern>
+</servlet-mapping>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

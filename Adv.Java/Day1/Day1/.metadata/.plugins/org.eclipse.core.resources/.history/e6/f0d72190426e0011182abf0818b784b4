@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+</head>
+<body>
+<h4>Welcome to My First WebApp</h4>
+<!-- URI/Day1_Lab/test1 , method GET -->
+<h5><a href="test1">Test Servlet Deployed Via Annotation</a></h5>
+</body>
+</html>

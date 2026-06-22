@@ -1,0 +1,96 @@
+Web development Steps
+
+For Mac Users 
+- refer to "day1_data\day1_help\Web Programming\Web Programming\STS 5 with Java EE Tools.txt"
+Perform these steps.
+Then continue with remaining steps .
+
+
+ Download & Extract Apache Tomcat Web server 
+- "softwares\apache-tomcat-10.1.26.7z"
+- Save it under Study Materials | Software folder 
+- Add tomcat server to web java STS 5 workspace.
+
+For windows users
+- Download & extract STS 5 
+- Download & Extract Apache Tomcat Web server 
+
+
+How ? 
+
+Steps
+0. Window -> Preferences -> JRE -> Install JRE -> JDK 21
+1. Change the perspective to Java EE
+ Window -> Perspective -> Change Perspective -> Other -> Java EE
+2. Choose Servers
+ - It will show you - NO servers
+3. Click on the link
+ - Choose Apache vendor & select Apache Tomcat 10.1
+4. Next -> Browse & Choose Tomcat Installation directory (Tomcat Home)
+5. Confirm JRE - JDK 21
+6. Finish
+7. Choose Apache Tomcat & start it. 
+8. Launch Server console & see if Tomcat is up & running.
+9. Create a dynamic web project ,to deploy monolithic web app (server side will render the view :HTTP  response content type : text/html)
+10. Configure web.xml , with welcome file list.
+11. Add index.html : welcome page (home page) with welcome message
+
+12. Start Server side application
+Right click on web project -> Run as -> Servler side app -> choose server -> finish
+You can check the server console.
+
+IDE will automatically a chrome (default web browser) & send a request to the web application.
+
+eg : 
+Request URL - http://localhost:8080/day1_web
+response  : index.html will be rendered.
+
+13. How to create & deploy a servlet ?
+1. Create a Servlet under 
+ - src/main/java
+  - <pages> / HelloWorldServlet.java
+
+2. To handle HTTP GET request
+ - override the inherited method
+protected void doGet(HttpServletRequest request,HttpServletResponse resp) 
+ throws ServletException , IOException
+
+2.1 Set response content type (response header)
+Method of ServletResponse (super interface of HttpServletResponse)
+public void setContentType(String contType)
+
+2.2 Get Writer (java.io) <---- PrintWriter , to send response form servlet -> client
+public PrintWriter getWriter() throws IOException
+
+PrintWriter - buffered writer .
+- implements AutoCloseable interface
+
+2.3 To add response body
+ - use print | write methods of PrintWriter
+
+2.4 Upon closing of PrintWriter (via try-with -resources)
+ - response is rendered to client.
+
+3. How to declare a Servlet ?
+OR
+How to register | deploy a servlet with WC ?
+2 ways
+1. Modern way
+ - annotations
+Eg.
+@WebServlet("/hello")
+public class MyServlet extends HttpServlet {....}
+
+OR
+
+2. Legacy way
+- XML tags in web.xml
+Servlet deployment tags
+<servlet>
+ <servlet-name>abc</servlet-name>
+ <servlet-class>pages.HelloServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>abc</servlet-name>
+ <url-pattern> /hello <url-pattern>
+</servlet-mapping>

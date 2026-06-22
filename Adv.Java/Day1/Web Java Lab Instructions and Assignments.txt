@@ -1,0 +1,35 @@
+Day 1
+
+1.
+Softwares - 
+JDK 21
+STS 5
+Apache Tomcat server (10.1.26)
+Jakartaee java docs
+
+
+2. Online version
+- https://jakarta.ee/specifications/platform/9/apidocs/
+(For Jakarta EE api docs)
+
+3. Download & Extract 
+ - STS 5
+ - Tomcat web server 
+
+
+Refer to - "day1_data\Web development Steps.txt"
+
+
+4. Create dynamic web project (day1_lab) . 
+ Test it with HTML(index.html) contents.
+
+5. Create & deploy the servlet using annotation
+(Understand annotation)
+
+
+6. Create & deploy second  servlet using xml tags
+
+7.  
+Create 1 servlet with default (lazy) loading &  another one with eager loading.
+
+
