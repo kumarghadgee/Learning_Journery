@@ -1,0 +1,42 @@
+package com.sunbeam.dao;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+import com.sunbeam.entities.Candidate;
+import com.sunbeam.utils.DBUtils;
+ 
+public class CandidateDaoImpl implements CandidateDao{
+	private Connection connection;
+	private PreparedStatement pst;
+	
+	public CandidateDaoImpl() throws SQLException{
+		connection = DBUtils.getConnection();
+		pst=connection.prepareStatement("SELECT * FROM candidates");
+		System.out.println("Candidate Dao is Created!!!");
+	}
+	
+	public void cleanup() throws SQLException{
+		if(pst != null) {
+			pst.close();
+		}
+		
+		if(connection != null) {
+			connection.close();
+		}
+		System.out.println("Candidate Dao is cleaned up!!!");
+	}
+
+	@Override
+	public List<Candidate> getAllCandidates() throws SQLException {
+		// TODO Auto-generated method stub
+		List<Candidate> list = new ArrayList<>();
+		try(ResultSet rst = pst.executeQuery()){
+			while(rst.next()) {
+				Candidate cd = new Candidate(rst.getLong(1),rst.getString(2),rst.getString(3),rst.getInt(4));
+				list.add(cd);
+			}
+			return list;
+		}
+	}
+}

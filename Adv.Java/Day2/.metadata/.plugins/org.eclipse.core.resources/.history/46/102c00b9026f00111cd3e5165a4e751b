@@ -1,0 +1,8 @@
+package com.sunbeam.dao;
+
+import java.sql.*;
+ 
+public class CandidateDaoImpl implements CandidateDao{
+	private Connection connection;
+	
+}

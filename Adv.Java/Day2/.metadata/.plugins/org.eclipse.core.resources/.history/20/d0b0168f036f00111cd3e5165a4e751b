@@ -1,0 +1,14 @@
+package com.sunbeam.dao;
+
+import java.sql.*;
+ 
+public class CandidateDaoImpl implements CandidateDao{
+	private Connection connection;
+	private PreparedStatement pst;
+	
+	public CandidateDaoImpl() throws SQLException{
+		connection.DBUtils.getConnection();
+		pst=connection.prepareStatement("SELECT * FROM candidates");
+		System.out.println("Candidate Dao is Created")
+	}
+}

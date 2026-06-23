@@ -1,0 +1,264 @@
+Today's Agenda
+0. Q & A Session with Revision
+1. Start with case study 
+ Servlet-JDBC Integration
+2. Page Naviagation Techniques
+ - Client Pull
+3. Server Side State Management
+ - Cookie
+ - HttpSession (If time permits)
+
+
+Revise first 
+What is a Servlet ?
+- Java progam (class) runs within server side (WC)
+ - receievs client request , processes it & sends the HTTP resp
+- no main method
+- contains init , service, destroy
+-dynamic web component , whose life cycle is managed server side JVM - Web Container(WC)
+
+Why ?
+Performs jobs
+- Request processing
+- B.L (business logic)
+- Manages DAO
+- page navigation
+- resp generation
+
+HTTP request & resp flow
+eg - http://host:port/day2 : URL 
+http - app layer protocol
+host - DNS qualified host (IPV6 address) - IP Layer - remote host
+port - TCP -web server(Tomcat)
+/day2  - URI (path) - web app path -> web server -> WC
+WC -> routes -> web app -> web.xml (welcome-file-list)
+Eg- login.html
+WC -> HTML -> Web server -> resp packet(status code , header/s,resp body) -> client
+
+
+Servlet API 
+
+Why HttpServlet is an abstract class , but with complete behavior?
+- Since HttpServlet is an abstract class  , it can't be instantiated .So it can't be used directly.
+
+- All methods are concrete so that developer can choose to override only the required method/s (eg. HTTP method is GET - you have to only override doGet & nothing else)
+
+
+
+Servlet Deployment
+1. @WebServlet("/hello")
+public class HelloWorldServlet extends HttpServlet {....}
+
+Meaning - WC reads this annotation @ web application deployment time (start up time)
+WC creates a Map
+Key - /hello (url pattern)
+Value - pages.HelloWorldServlet (Fully qualified servlet class name)
+
+
+
+ 
+Explain 2 ways to deploy the servlet with WC
+1. @WebServlet("/login")
+public class LoginServlet extends HttpServlet {.....}
+
+WC creates a request Map (HashMap) at the application deployment time.
+Key - /login
+Value - com.cdac.pages.LoginServlet
+
+By default WC - loads the servlet 
+- lazy (i.e it will start the servlet life cycle - after the 1st request from client)
+-WC loads servlet class in server side method area
+- creates SINGLETON instance , using default constructor
+- invokes init()
+ - This completes init sequence.
+- WC calls service method (of HttpServlet) -> dispatches the request to 
+ - GET -> doGet
+ - POST -> doPost 
+- executes servicing logic
+- renders the resp.
+ -This is the  service phase 
+
+- When will WC call destroy ?
+ - @ end of the life cycle , before it marks the servlet instance for GC
+Triggers
+- server shut down (graceful)
+OR
+- re loading context(=web app)
+OR
+- un loading of the web app
+
+Another way of Servlet deployment , using XML tags.
+- legacy way.
+XML tags 
+<servlet>
+ <servlet-name>abc</servlet-name>
+ <servlet-class>com.cdac.pages.TestServlet</servlet-class>
+ <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+		<servlet-name>abc</servlet-name>
+		<url-pattern>/test1</url-pattern>
+</servlet-mapping>
+
+What the default loading policy of WC for Servlets ?
+- Lazy
+- Meaning WC starts the servlet life cycle , after client's 1st request
+(Servlet class loading , instance , init => init sequence)
+
+
+To change it to eager init
+- Meaning WC should start the init sequence 
+ - at web app start up
+- Use load on startup attribute
+ - default value=-1 
+  => lazy loading
+Simply change the value to > 0 => eager loading 
+
+Use case of eager init
+- In case of time consuming inits
+  eg - open db connection, creating JDBC statements ,loading hibernate | spring frameworks.
+
+
+
+Objective
+Start with the Voting case study
+1. Servlet-JDBC Integration
+- Copy Type IV JDBC driver - Mysql connector under
+ -either <WEB-INF>/lib OR <Tomcat_home>/lib - already done ! - 
+- Create utils , dao , entity layers.
+- User Authentication
+Table - users
+Entity - User
+DAO - UserDao & imple class
+ Add a method & implement - user signin 
+
+
+1. Centralized exc handling in Servlet
+- In case of exception in  init() method
+try {
+ init logic 
+} catch(Exception e)
+{
+ //To inform the WC that init has failed , so that WC aborts remaining life cycle
+ throw new ServletException("error message" , e);
+}
+
+Constructor of ServletException
+public ServletException(String message,Throwable rootCause)
+
+Exception handling Rule
+ - Overriding form of the method , CAN NOT throw 
+  - a new or BROADER checked exception 
+
+
+Checked vs Un checked Any class that extends from
+	 * Error or RuntimeException class - un checked (i.e javac doesn't force the
+	 * handling ) Otherwise (extends from Exception class - Checked exception Javac
+	 * forces handling of the Checked exceptions
+	 */
+
+Servlet API
+1. To read request parameters sent from the client in a Servlet
+ServletRequest i/f method
+1.1 String getParameter(String paramName)
+ - returns param value if present ,otherwise null
+1.2 String[] getParameterValues(String paramName)
+ - returns param values if present ,otherwise null
+
+
+2. Page Navigation Techniques
+- Taking client from one page to another page.
+2 types 
+1. Client Pull - 
+=> Client (browser) is involved in the navigation.
+1.1 Client clicks on the link or submit button -> new request will be sent from the browser to the next page.
+1.2 Redirect scenario
+Without involving the client (as a person) , how to naviagate automatically ?
+Method of HttpServletResponse
+- public void sendRedirect(String redirectLocation) throws IOException
+Eg. To redirect voter to dashboard
+response.sendRedirect("voter_dashboard");
+- WC immediately sends response to the clnt 
+Client browser send a next (new) request to redirect location.
+Internals of sendRedirect
+- WC immediately sends a temporary redirect response
+ Status Code 302 (redirection) ,
+Resp header :  Location - patient_dashboard 
+, body - EMPTY
+- Web browser sends NEXT request automatically
+URL - http://host:port/ctx_path/patient_dashboard
+HTTP method - GET
+Next servlet has to override - doGet , otherwise SC 405 will be sent.
+Possible Exception raised - java.lang.IllegalStateException
+- WC throws this exception if the resp is already sent | committed (via pw.flush
+)
+Err mesg - You can't call sendRedirect after committing the resp!!!!!!!!
+Why - When you call sendRedirect ,
+WC tries to clear (discard) the resp buffer(PrintWriter's buffer)
+So at this time , if the resp is already sent (via flush) , WC throws the exception.
+
+
+What is the Problem noticed ?
+- Unable to read request parameter  from the redirected page(dashboard)
+- null value
+
+Reason - HTTP & web server(HTTP Listener) 
+ - inherently STATELESS
+Meaning it CAN NOT remember the client , across multiple requests, automatically 
+Solution
+- Use server side State management techniques.
+
+3.Server side  State management techniques
+Need -
+1. To remember the conversational state of the client across multiple requests
+(i.e typically from login -> logout)
+
+2. To identify & store  state of different clients separately.
+
+NOTE - In full stack application , you will store the state of the client , in the front end app (i.e. using localstorage , sessionstorge , Redux store...)
+
+State management techniques by Jakarata EE 
+1. Cookie
+OR 
+2. HttpSession i/f
+OR
+HttpSession i/f
++ URL rewriting
+
+Cookie - 
+Small text data created by server (Servlet | JSP)
+- sent to the client in form of the response header (Set-Cookie)
+
+Dev Steps in Cookie based state management
+1. Create a cookie,  on server side
+API 
+jakarta.servlet.http.Cookie(String name, String value) 
+- class
+Eg. Cookie c1=new Cookie("user_name",user.getFirstName());
+
+2. Add the cookie to response header.
+API of HttpServletResponse
+- public void addCookie(Cookie c)
+Eg. resp.addCookie(c1);
+
+3.  Send / commit /render response.
+Cookie is sent in the resp header
+Resp header Name - Set-Cookie
+
+4. Client browser checks cookie settings
+Blocked - session tracking(rememebring the clnt across multiple requests) fails .
+Accepted - Browser by default stores the cookie - in browser cache.
+
+5. Client browser automatically
+-  sends the cookie/s in the next requests to the same web application 
+- (i.e from the same server where it was originated)
+
+6. To access the cookies in Servlet | JSP
+HttpServletRequest API
+public Cookie[] getCookies()
+- returns null , in case of no cookies.
+
+7. Cookie class methods
+public String getName();
+public String getValue();
+

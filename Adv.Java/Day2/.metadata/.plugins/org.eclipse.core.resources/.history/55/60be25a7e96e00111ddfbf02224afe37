@@ -1,0 +1,93 @@
+package com.voting.entities;
+
+import java.sql.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+/*
+ * id | first_name | last_name | email            | password | dob        | status | role 
+ */
+//@NoArgsConstructor // generates default arg-less constructor
+//@AllArgsConstructor // generates parameterized ctor
+//@Getter //generates all getters 
+//@Setter //generates all setters
+//@ToString(exclude = "password") //generates toString with all fields w/o password
+public class User {
+	private long userId;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private Date dob;
+	private boolean status;
+	private String role;
+	public long getUserId() {
+		return userId;
+	}
+	public void setUserId(long userId) {
+		this.userId = userId;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public Date getDob() {
+		return dob;
+	}
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+	public boolean isStatus() {
+		return status;
+	}
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
+	public User(long userId, String firstName, String lastName, String email, String password, Date dob, boolean status,
+			String role) {
+		super();
+		this.userId = userId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.password = password;
+		this.dob = dob;
+		this.status = status;
+		this.role = role;
+	}
+	
+	
+	
+	
+
+}

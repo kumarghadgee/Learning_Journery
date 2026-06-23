@@ -1,0 +1,16 @@
+ Refer to Study Material\servlets\Jakarta EE with Servlets.pdf & diagrams
+Refer to Jakarta EE - api docs
+
+Day 1  
+	Explore Why Java EE & what is it ?
+	Java EE vs Jakarta EE
+	Web server vs. Application Server
+	Servlet Container tasks
+
+Day 2
+	Important Servlet API
+	Servlet - JDBC Integration steps
+	Redirect - page Navigation
+	Cookie based session tracking
+         - concept & implementation
+

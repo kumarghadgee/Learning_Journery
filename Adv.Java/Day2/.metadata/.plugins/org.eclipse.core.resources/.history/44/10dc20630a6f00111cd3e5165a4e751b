@@ -1,0 +1,45 @@
+package com.sunbeam.pages;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+import com.sunbeam.dao.CandidateDao;
+import com.sunbeam.dao.CandidateDaoImpl;
+
+/**
+ * Servlet implementation class CandidateServlet
+ */
+@WebServlet(value = "/candidate_list",loadOnStartup = 1)
+public class CandidateServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private CandidateDao candidateDao;
+	
+	public void init() throws ServletException{
+		try {
+			candidateDao = new CandidateDaoImpl();
+		}catch(Exception e) {
+			throw new ServletException("error in init method "+getClass(),e);
+		}
+	}
+	
+	public void destroy() {
+		try {
+			candidateDao.cleanup();
+		}catch(Exception e) {
+			System.out.println("Error in Destroy method"+e);
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

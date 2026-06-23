@@ -1,0 +1,8 @@
+package com.sunbeam.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+public interface CandidateDao extends BaseDao{
+	List<Candidate> getAllCandidates() throws SQLException;
+}

@@ -1,0 +1,13 @@
+package com.sunbeam.utils;
+
+import java.sql.*;
+
+public interface DBUtils {
+	private final static String dbURL = "jdbc.mysql://localhost:3306/voting";
+	private final static String userName = "root";
+	private final static String password = "ghadgedeveloper";
+	
+	public static connection getConnection() throw SQLException{
+		return DriverManager.getConnection(dbURL, userName, password);
+	}
+}

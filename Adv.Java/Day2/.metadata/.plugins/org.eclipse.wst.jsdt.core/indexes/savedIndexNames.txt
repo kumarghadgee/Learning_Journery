@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+E:\WJP\Day2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2865394544.index
+623876338.index
+1880956556.index

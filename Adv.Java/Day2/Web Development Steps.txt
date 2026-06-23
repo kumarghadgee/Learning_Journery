@@ -1,0 +1,103 @@
+Web Development Steps
+- for solving Voting case study
+1. Create dyn web project
+ - day2.1
+2. Confirm if mysql connector exists under 
+Tomcat lib
+- If not copy it under <Tomcat_home>/lib
+
+3. Solve
+- User Authentication
+
+4. Table - users
+4.1 POJO(Entity) User
+4.2 DAO - BaseDao - super interface
+ - public void cleanUp() throws SQLException
+UserDao extends BaseDao
+ - User authenticateUser(String email,String password) throws SQLException
+4.3 UserDaoImpl implements UserDao
+
+4.4 Create DBUtils 
+ - public static Connection getConnection()  throws SQLException
+
+5. To reduce boilerplate code from Java classes 
+ -constructors , getters , setters , toString , hashCode ,equals ....
+Use 3rd party annotations based library
+ - Lombok
+Steps 
+5.1 Add Lombok JAR 
+ - under Tomcat /lib folder
+
+5.2 Install Lombok JAR
+ to your IDE location
+ (already done for Windows users in STS 5)
+
+
+5.3 Start using the annotations in POJO class
+@NoArgsConstructor, @AllArgsConstructor,@Getter , @Setter ,@ToString
+
+6. Create DBUtils class
+- add a static method to return DB connection
+
+7. Create BaseDao 
+- interface
+- add a method 
+ void cleanUp() throws SQLException
+
+8. Create UserDao extends BaseDao
+ - add user authenticate method
+
+9. Create UserDaoImpl class
+ 9.1  constructor
+  - get connection from DBUtils
+  - create PreparedStatement
+
+9.2 Clean up
+ - close Preparedstatement
+ - close db connection
+
+9.3 Implement authenticateUser 
+
+10. Create LoginServlet  (loaded on start up)
+10.1 init
+ - create dao instance
+10.2 destroy
+ - clean up dao
+
+10.3 doPost
+ - invoke dao's method
+ - in case of failed login 
+  - Send Retry link with error message
+ - in case of success
+  - redirect user to 
+   voter dahsboard 
+    OR
+   admin dashboard
+   OR 
+   logout page
+
+11. Since HTTP is stateless
+ - Create a Cookie 
+ - add it to response header
+ - retrieve it from request header
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+

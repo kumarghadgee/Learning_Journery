@@ -1,0 +1,10 @@
+package com.sunbeam.entities;
+
+
+//| id | name              | party    | votes 
+public class Candidate {
+private long id;
+private String name;
+private String party;
+private int votes;
+}
