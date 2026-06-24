@@ -1,0 +1,53 @@
+Dev Steps
+1. Copy day2.1 -> day3.1
+2. Replace Cookie based State management by
+ - HttpSession API
+2.1 In LoginServlet
+init , destroy - manage voter dao
+
+doPost
+ - getSession
+ - setAttribute
+
+2.2 In VoterDashboard
+init , destroy - manage candidate dao
+doGet 
+ - getSession(false)
+ - getAttribute
+
+2.3 Get candidate list
+ - generate form dynamically
+
+
+3. Logout Servlet
+- init , destroy ,doGet, doPost
+init 
+- user dao & candidate dao
+ - create instances
+
+destroy 
+- user dao & candidate dao
+ -cleanup
+
+doGet -
+ => already voted
+ - already voted mesg
+ - invalidate HttpSession
+
+doPost
+=> after cating a vote
+- update voting status - voter id - from HttpSession
+- increment votes - candidate id - req param (body)
+
+
+DAO Layer 
+Voter Dao
+ - change voting status
+
+Candidate Dao
+ - increment candidate's votes
+
+
+
+
+

@@ -1,0 +1,25 @@
+ Refer to Study Material\servlets\Jakarta EE with Servlets.pdf & diagrams
+
+Day 1  
+	Explore Why Java EE & what is it ?
+	Java EE vs Jakarta EE
+	Web server vs. Application Server
+	Servlet Container tasks
+
+Day 2
+	Important Servlet API
+	Servlet - JDBC Integration steps
+	Redirect - page Navigation
+	Cookie based session tracking
+         - concept & implementation
+
+Day 3
+       Explore HttpSession life cycle from 
+       - Day3 sequence or Jakarta EE with Servlets.pdf
+       - day3_help\diagrams\HttpSession Internals.png"
+       Differentiate between
+        - sendRedirect vs Forward
+        - forward vs include
+       Identify
+        Scopes in web programming
+

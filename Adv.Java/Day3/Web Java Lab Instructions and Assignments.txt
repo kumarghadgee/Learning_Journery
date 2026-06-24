@@ -1,0 +1,137 @@
+Day 1
+
+1.
+Softwares - 
+JDK 21
+STS 5
+Apache Tomcat server
+Jakartaee java docs
+
+
+2. Online version
+- https://jakarta.ee/specifications/platform/9/apidocs/
+(For Jakarta EE api docs)
+
+3. Download & Extract 
+ - STS 5
+ - Tomcat web server 
+
+
+Refer to - "day1_data\Web development Steps.txt"
+
+
+4. Create dynamic web project (day1_lab) . 
+ Test it with HTML(index.html) contents.
+
+5. Create & deploy the servlet using annotation
+(Understand annotation)
+
+
+6. Create & deploy second  servlet using xml tags
+
+7.  
+Create 1 servlet with default (lazy) loading &  another one with eager loading.
+
+
+Day 2
+0.
+Copy Lombok JAR under <tomcat> / lib
+Confirm if mysql connector jar exists under 
+ <tomcat> / lib
+
+1. import day2.1 , in the workspace 
+ - as existing Java Project
+ - Edit DB password from DBUtils
+
+If the Lombok annotations are not working
+- simply use getters . setters , constructors as earlier. 
+ 
+
+2. We will walk through the entire code & revise along with Inspect tools
+
+Mandatory Assignment 
+3. Create new dynamic web project (day2_lab)
+3.1 Add index.html as welcome page
+3.2 Add a link on the index.html , "Calculate"
+<a href="calc.html">Calculate</a>
+
+3.3 
+Supplied in 
+- day2_data\calc.html
+
+3.4 Sumit the form to a Calculator Servlet , to render the result of the specified operation.
+- Servlet should be deployed using annotation
+singleton & lazy.
+
+4. Optional Assignment(but reommended )
+Render all Candidate's  List
+We will discuss the steps  completely , in the lab session.
+Dev Steps
+1. Continue with day2_lab
+2. Add another link in index.html
+<a href="candidate_list">List All Candidates</a>
+
+3. Table - candidates
+4. Create Candidate.java
+5. Copy DBUtils.java
+6. Copy BaseDao - i/f
+7. Create 
+ - CandidateDao ----> BaseDao
+-  List<Candidate>  getAllCandidates() throws SQLException
+
+8. CandidateDaoImpl
+ -constr
+  - get cn
+  - pst1
+- cleanUp
+ close all
+ - method
+  - exec Query -> iterate thro' RST -> List
+
+9. CandidateListServlet
+ - singleton , eager
+ init
+ - create dao instance
+ destroy 
+ - clean up dao
+doGet
+ - call dao's method -> List -> forEach -> render the list
+
+
+Day 3
+
+1. import day3.1 , in the workspace 
+ - as existing Java Project
+ - Edit DB password from DBUtils
+ - Have you created voting database & added tables ?
+  - If not , create !
+ 
+
+2. We will walk through the entire code & revise along with Inspect tools
+
+
+3. Complete RequestDispatching assignment
+ - Student admission
+ - with forward
+ - with include
+ - Continue with day3.2
+
+4. New  Hands on 
+Continue in Voting Case study
+4.1 Copy day3.1 in day3_lab
+
+4.2 Render 
+- Admin dashboard
+
+Assignment Help
+CandidateDao
+- top 2 candidates
+List<Candidate> getTop2Candidates() throws SQLException;
+
+Get partywise votes
+List<PartyVotes> partywiseAnalysis() throws SQLException;
+
+PartyVotes - Data Transfer object (Very IMPORTANT concept)
+- represents customized view of the table
+-create a class with suitable fields & args , setters/ getters
+

@@ -1,0 +1,260 @@
+Today's  Agenda
+Assignment Status
+Q & A with Revision
+Disadvantages of Cookie based State management
+HttpSession API
+Completion of the case study- Voter View
+Server pull
+
+Eg. In LoginServlet
+- Cookie c1=new Cookie("user_name", user.getName());
+resp.addCookie(c1);
+resp.sendRedirect("admin_dashboard");
+
+
+
+
+Dis advantages of Cookie based Session Tracking(state management)
+1. Can store only text data in a cookie
+2. Servlet developer has to manage cookies
+3. As no of cookies increase , net trafic increases.
+4. Since the state of the user is stored on the client side , if you delete cookies state is lost .
+5. If client block the cookies , cookie based session tracking fails
+
+
+Replace Cookie based State management by HttpSession API
+
+
+jakarta.servlet.http.HttpSession 
+ - interface to represent multiple requests coming from same client from login to logout | session expiration(default for Tomcat=30 minutes)
+
+ 
+Development Steps
+1. Get HttpSession from WC
+- Method of HttpServletRequest
+ public HttpSession() getSession()
+- In case of new user , WC creates a NEW HttpSession object & returns it to caller.
+- In case of existing user , WC returns EXISTING HttpSession object to the caller.
+Eg . HttpSession session=request.getSession();
+
+1.1 Method of HttpServletRequest
+ public HttpSession() getSession(boolean create)
+- create : true
+ - works extactly as earlier
+
+- create : false
+ - In case of existing user , WC returns EXISTING HttpSession object to the caller.
+- BUT In case of new user , WC  returns null (does not create any new session)
+
+2. To save client state under HttpSession
+HttpSession API
+public void setAttribute(String attrName,Object attrValue)
+eg . session.setAttribute("user_details",user);
+
+3. To get client details from HttpSession
+HttpSession API
+public Object getAttribute(String attrName)
+Eg . User userDetails=(User)session.getAttribute("user_details");
+
+4. To discard HttpSession (typically in logout page)
+HttpSession API
+public void invalidate()
+- WC marks HttpSession object on the server side for Garbage Collection(GC)
+
+Extra API - 
+
+5. To remove attribute from HttpSession
+HttpSession API
+public void removeAttribute(String attrName)
+
+6. To get all attribute names bound to HttpSession
+public Enumeration<String> getAttributeNames()
+java.util.Enumeration<T> - generic interface , modern alternative is Iterator<T>
+
+For debugging (understanding internals)
+7. public boolean isNew()
+- Rets true in case newly created HttpSession 
+- otherwise false.
+
+8. public String getId()
+- Rets HttpSession id , created by WC , unique per client
+
+Default value of HttpSession expiration time , for Apache tomcat=30 mins.
+
+9.To change its value
+public void setMaxInactiveInterval(int seconds)
+
+OR
+ use xml tags (declarative approach) - web.xml
+<session-config>
+	<session-timeout>tmout in minutes</session-timeout>
+</session-config>
+
+
+2. Continue with case study - voter view
+Dev steps
+2.1 Render candidate list from DB
+Tables - candidates
+POJO (Entity | Model) - Candidate
+DAO - CadidateDao , CandidateDaoImpl
+
+VoterDashboard - Servlet
+1. init 
+- create instance of CandidateDaoImpl
+
+2. destroy
+- clean up CandidateDaoImpl
+
+3. doGet 
+- set content type
+- get Printwriter
+- get HttpSession
+- get User from HttpSession 
+- send user name (pw.print) - greeting 
+- invoke dao's method to get List<Candidate>
+- render dynamic form
+<form action="..." method="...">
+ radio buttons 
+ submit btn
+</form>
+
+
+2.2 After casting a vote , submit the form to Logout Servlet
+- update voter's status
+- increment candidate's votes 
+- render logout message
+
+Steps
+Tables - users , candidates
+POJOs- User , Candidate
+DAO - UserDao , CandidateDao
+
+UserDao 
+String updateVotingStatus(long voterId) throws SQLExc
+UserDaoImpl
+- update users set status=1 where id=?
+
+CandidateDao
+String incrementVotes(int candidateId) throws SQLExc
+CandidateDaoImpl
+- update candidates set votes=votes+1 where id=?
+
+
+Logout Servlet
+init
+- create userDao & candidate dao instance
+
+destroy 
+- clean up  userDao & candidate dao instance
+
+doGet 
+- set resp content type & get writer
+- get HttpSession
+- get user details & render greeting
+- render message - already voted
+- invalidate Http Session
+- render logout mesg
+
+doPost (after voter votes - form submission)
+- set resp content type & get writer
+- get HttpSession
+- get user details & render greeting
+- invoke userDao's method 
+ - to change voting status : voter id - session
+- invoke candidate dao's method
+ - to incr votes : candidate id - request data
+- render messages
+- invalidate Http Session
+- render logout mesg.
+
+
+Admin dashboard
+CandidateDao
+- top 2 candidates
+List<Candidate> getTop2Candidates() throws SQLException;
+
+Get partywise votes
+List<PartyVotes> partywiseAnalysis() throws SQLException;
+
+PartyVotes - Data Transfer object
+- represents customized view of the table
+-create a class with suitable fields & args , setters/ getters
+
+
+Page Navigation
+- Server Pull (Request Dispatching | Request Chaining)
+- used commonly in MVC based architecture.
+- Navigating the client to next page BUT in the SAME request.
+- Dispatching the same request to visit multiple pages (HTML | JSP | Servlet)
+Why 
+- Division of responsibility(separation of concerns=tasks)
+Meaning one web page can be responsible for B.L (business logic) & another page can be responsible for P.L (presentation logic) - response generation logic.
+- faster technique than client pull , since doesn't involve round trip delay.
+
+API steps
+1. Create Request Dispatcher object, to chain the resources(web pages - HTML , JSP , Servlet)
+API of ServletRequest | ServletContext
+public RequestDispatcher getRequestDispatcher(String dispatcherLocation)
+RequestDispatcher - i/f in the package - jakarta.servlet
+Eg. To chain servlet1 -> servlet2
+In servlet1 
+RequestDispatcher rd=request.getRequestDispatcher("s2");
+s2 - url-pattern of the servlet2
+
+2. API of RequestDispatcher
+2.1 forward scenario
+public void forward(ServletRequest rq,ServletResponse rs);
+Eg.
+rd.forward(rq,rs);
+Internals - 
+- WC clears(discards) the resp buffer.
+- WC invokes doXXX method of the next page (doGet --> doGet , doPost--> doPost)
+- Only the last page in the chain , can generate  the dynamic resp(i.e can add to the resp buffer)
+- After the method exec , control comes to the 1st page . 
+- resp is then rendered (sent to clnt).
+- This is the default technique used for navigation in typical MVC framework.
+
+When will WC throw IllegalStateException?
+- If you are calling forward , after committing the response.
+OR
+- If you are calling sendRedirect , after committing the response.
+
+
+
+2.2 include scenario (include method of RequestDispatcher)
+public void include(ServletRequest rq,ServletResponse rs);
+Eg.
+rd.include(rq,rs);
+Internals -
+- WC does NOT clear the resp buffer(i.e it retains the contents in the resp buffer).
+- WC invokes doXXX method of the next page (doGet --> doGet , doPost--> doPost)
+- Control comes back to the main page.
+- Resp is rendered
+- It will contain the dynamic contents from 1st page(main) + include page.
+- Included page can't modify resp status code or headers.
+(i.e can't use the methods
+ - setStatus & setHeader)
+- WC simply ignores the changes.
+
+
+
+forward vs include
+- Both are request dispatching techniques(server pull)
+- min scope required : request
+Difference
+In include scenario
+- main page , as well as included page , both , can generate dynamic contents (i.e pw.print)
+- The included page can not set resp status code & headers.
+
+
+
+Note -
+In client pull (i.e clicking on the link/button or sendRedirect)
+ - minimum scope required for the attributes : session
+Eg. session.setAttribute & session.getAttribute
+
+In server pull (i.e RequestDispatcher - forward | include)
+ - minimum scope required for the attributes : request
+Eg. request.setAttribute & request.getAttribute
+
+
