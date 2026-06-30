@@ -1,0 +1,12 @@
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\dao\ProductDao.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\dao\ProductDaoImpl.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\dao\UserDao.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\dao\UserDaoImpl.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\entities\Product.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\entities\ProductCategory.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\entities\User.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\entities\UserRole.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\tester\AddProduct.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\tester\RegisterNewUser.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\tester\TestHibernate.java
+E:\WJP\Day2\day8.1_Lab\src\main\java\com\healthcare\utils\HibernateUtils.java
